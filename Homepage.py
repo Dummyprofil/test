@@ -1,6 +1,7 @@
 # Homepage.py
-
+import streamlit as st
 import sqlite3
+from pages import Add_transaction, Insights, Your_transactions
 
 def create_table():
     conn = sqlite3.connect("transactions.db")
