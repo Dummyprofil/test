@@ -16,5 +16,19 @@ def create_table():
     conn.close()
 
 def main():
-    create_table()
-    # Remaining code remains the same
+    st.title("Personal Finance Tracker")
+    
+    st.write("""
+    Welcome to Personal Finance Tracker app! This app helps you track your income and expenses.
+    
+    With this app, you can:
+    - Add new transactions
+    - View insights into your income and expenses
+    - Explore your transaction history
+    
+    Get started now by adding your first transaction!
+    """)
+
+if __name__ == "__main__":
+    main()
+
