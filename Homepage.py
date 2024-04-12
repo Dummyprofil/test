@@ -16,6 +16,7 @@ def create_table():
     conn.close()
 
 def main():
+    create_table()
     st.title("Personal Finance Tracker")
     
     st.write("""
